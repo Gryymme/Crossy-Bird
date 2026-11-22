@@ -156,36 +156,36 @@ GLuint loadSingleTexture(const char* filename) {
 
 void loadAllTextures() {
     // Backgrounds
-    bgTextureID1 = loadSingleTexture("background.png");
-    bgTextureID2 = loadSingleTexture("background2.png");
+    bgTextureID1 = loadSingleTexture("assets/background.png");
+    bgTextureID2 = loadSingleTexture("assets/background2.png");
 
     // UI
-    titleTextureID = loadSingleTexture("title.png");
-    gameOverTextureID = loadSingleTexture("gameover.png");
-    controlsTextureID = loadSingleTexture("pregamecontrols.png");
+    titleTextureID = loadSingleTexture("assets/title.png");
+    gameOverTextureID = loadSingleTexture("assets/gameover.png");
+    controlsTextureID = loadSingleTexture("assets/pregamecontrols.png");
 
     // Countdown
-    texCount3 = loadSingleTexture("pregamecd_3.png");
-    texCount2 = loadSingleTexture("pregamecd_2.png");
-    texCount1 = loadSingleTexture("pregamecd_1.png");
+    texCount3 = loadSingleTexture("assets/pregamecd_3.png");
+    texCount2 = loadSingleTexture("assets/pregamecd_2.png");
+    texCount1 = loadSingleTexture("assets/pregamecd_1.png");
 
     char filename[50];
 
     // Score Digits
     for (int i = 0; i < 10; i++) {
-        sprintf(filename, "firstdigit_%d.png", i);
+        sprintf(filename, "assets/firstdigit_%d.png", i);
         texScoreFirst[i] = loadSingleTexture(filename);
         
-        sprintf(filename, "seconddigit_%d.png", i);
+        sprintf(filename, "assets/seconddigit_%d.png", i);
         texScoreSecond[i] = loadSingleTexture(filename);
     }
 
     // High Score Digits
     for (int i = 0; i < 10; i++) {
-        sprintf(filename, "hsfirstdigit_%d.png", i);
+        sprintf(filename, "assets/hsfirstdigit_%d.png", i);
         texHSFirst[i] = loadSingleTexture(filename);
         
-        sprintf(filename, "hsseconddigit_%d.png", i);
+        sprintf(filename, "assets/hsseconddigit_%d.png", i);
         texHSSecond[i] = loadSingleTexture(filename);
     }
 }
