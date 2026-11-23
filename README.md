@@ -4,10 +4,7 @@ A C++ OpenGL obstacle-avoidance game for Windows. Guide a bird through branch ga
 
 ## Program Preview
 
-Add assets/demo.gif and uncomment the image Markdown below to display it.
 ![Program demonstration](CrossyBird_Demo.gif)
-
-Program demonstration coming soon.
 
 ## Controls
 
