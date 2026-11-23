@@ -2,6 +2,13 @@
 
 A C++ OpenGL obstacle-avoidance game for Windows. Guide a bird through branch gaps and falling clouds while gravity pulls it down. Features include scrolling backgrounds, a start menu and countdown, increasing obstacle speed, scoring, a saved high score, sprite-based screens and score digits, and collision screen shake.
 
+## Program Preview
+
+Add assets/demo.gif and uncomment the image Markdown below to display it.
+![Program demonstration](CrossyBird_Demo.gif)
+
+Program demonstration coming soon.
+
 ## Controls
 
 - **Space:** start the countdown from the menu; return to the menu after game over.
